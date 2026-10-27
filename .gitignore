@@ -1,0 +1,16 @@
+# 嵌套的独立仓库（llvm-project 为独立 git 仓库，不纳入本仓库跟踪）
+llvm-project/
+
+# 依赖目录
+node_modules/
+
+# 日志与临时文件
+*.log
+tmp/
+temp/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
